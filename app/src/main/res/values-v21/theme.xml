@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseTheme" parent="CJJBaseTheme">
+    <item name="android:navigationBarColor">#512DA8</item>
+    <!--<item name="android:statusBarColor">?attr/theme_statusbar_color</item>-->
+    <!--&lt;!&ndash;Translucent system bars&ndash;&gt;-->
+    <!--<item name="android:windowTranslucentNavigation">false</item>-->
+    <!--<item name="android:windowTranslucentStatus">false</item>-->
+    </style>
+</resources>

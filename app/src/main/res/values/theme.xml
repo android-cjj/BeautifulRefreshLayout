@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CJJBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorPrimaryDark">#FFC107</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+</resources>

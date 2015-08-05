@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cjj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cjj.refresh.WaveView
+        android:id="@+id/draweeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <!--<pl.droidsonroids.gif.GifImageView-->
+        <!--android:id="@+id/text_loading"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/src_anim"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/text_loading"
+        android:layout_gravity="center"
+        android:layout_width="56dp"
+        android:gravity="center"
+        android:layout_height="56dp"
+        />
+
+    <ImageView
+        android:id="@+id/meishi"
+        android:src="@drawable/meishi"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:gravity="center"
+        android:layout_height="60dp" />
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseTheme" parent="CJJBaseTheme">
+        <!--<item name="android:selectableItemBackground">@drawable/selector_list_holo</item>-->
+
+        <!--最上方的状态栏 (Status Bar) 以及最下方的导航栏 (Navigation Bar) 透明化-->
+        <!--<item name="android:windowTranslucentNavigation">false</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowBackground">?attr/theme_color</item>-->
+    </style>
+</resources>

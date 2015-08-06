@@ -36,14 +36,13 @@
 
 ![](https://github.com/chrisbanes/ActionBar-PullToRefresh/raw/master/header.png)
 
-(4)这时候google也有自己的下拉控件SwipeRefreshLayout，刚出来的效果，一条加载直线，个人觉得，一般到要死。
+(4)这时候google也有自己的下拉控件SwipeRefreshLayout，刚出来的效果，一条加载直线，个人觉得，一般到要死。[stormzhang/SwipeRefreshLayoutDemo](https://github.com/stormzhang/SwipeRefreshLayoutDemo)写了demo。
 
 ![](https://camo.githubusercontent.com/9c0181efd67b9b7f080a1526311eba64485539c2/687474703a2f2f73746f726d7a68616e672e6769746875622e696f2f696d6167652f5377697065526566726573684c61796f75742e676966)
 
 android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应用都用这个
 
-![](https://camo.githubusercontent.com/cfdc4a235ea790c206e802949cea6be0ed2b1546/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f32322f31323031303576357a6a6930307278726377727a7a782e706e67)
-![](https://camo.githubusercontent.com/dad9821cfb30c503036cd7045864dcdc2b0ef248/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f31342f303931363430703273353030327068687337377869762e706e67)
+![](https://camo.githubusercontent.com/736dc88d160cc23793bc8193bbbe7b9009d5501e/687474703a2f2f7777332e73696e61696d672e636e2f626d6964646c652f3564343330393737677731656c6b357237736b73756732306234306a726232392e676966)
 
 (5)这时又看到了[baoyongzhang/android-PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout),This component like SwipeRefreshLayout, it is more beautiful than SwipeRefreshLayout.就是比google的跟漂亮。呵呵!
 

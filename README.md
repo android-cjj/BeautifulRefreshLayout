@@ -36,14 +36,38 @@
 
 ![](https://github.com/chrisbanes/ActionBar-PullToRefresh/raw/master/header.png)
 
-(4)这时候google也有自己的下拉控件了，刚出来的效果，一条加载直线，个人觉得，一般到要死。
+(4)这时候google也有自己的下拉控件SwipeRefreshLayout，刚出来的效果，一条加载直线，个人觉得，一般到要死。
 
 ![](https://camo.githubusercontent.com/9c0181efd67b9b7f080a1526311eba64485539c2/687474703a2f2f73746f726d7a68616e672e6769746875622e696f2f696d6167652f5377697065526566726573684c61796f75742e676966)
 
 android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应用都用这个
 
 ![](https://camo.githubusercontent.com/cfdc4a235ea790c206e802949cea6be0ed2b1546/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f32322f31323031303576357a6a6930307278726377727a7a782e706e67)
+![](https://camo.githubusercontent.com/dad9821cfb30c503036cd7045864dcdc2b0ef248/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f31342f303931363430703273353030327068687337377869762e706e67)
 
+(5)这时又看到了[baoyongzhang/android-PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout),This component like SwipeRefreshLayout, it is more beautiful than SwipeRefreshLayout.就是比google的跟漂亮。呵呵!
+
+![](https://raw.githubusercontent.com/baoyongzhang/android-PullRefreshLayout/master/demo.gif)
+
+(6)同时，这里也要提下[liaohuqiu/android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh),已经强大到什么控件都能适用刷新了，相信你也听过了
+
+![](https://camo.githubusercontent.com/88cdf877aa0a1fb19506ecf3404447eba59e68cc/687474703a2f2f737261696e2d6769746875622e71696e6975646e2e636f6d2f756c7472612d7074722f6175746f2d726566726573682e676966)
+
+(7)看过最有创意的下拉刷新，一只飞机飞啊飞，然而并没有什么卵用.....
+
+![](https://github.com/race604/FlyRefresh/blob/master/images/flyrefresh.gif)
+
+(8)material设计已经深入到开发者的心里，然后 我看到了A pull-down-to-refresh layout inspired by Lollipop overscrolled effects
+[allan1st/JellyRefreshLayout](https://github.com/allan1st/JellyRefreshLayout),我这个也是看人家的代码实现的，十分感谢，啊哈哈
+
+![](https://github.com/allan1st/JellyRefreshLayout/blob/master/images/preview.gif)
+
+(9)最近看的下拉刷新也是挺奇怪的，就比如[recruit-lifestyle/BeerSwipeRefresh](https://github.com/recruit-lifestyle/BeerSwipeRefresh)啤酒下拉刷新和[recruit-lifestyle/WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)水滴下拉刷新...
+
+![](https://github.com/recruit-lifestyle/BeerSwipeRefresh/blob/master/sc/animation_beer.gif)
+![](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout/blob/master/sc/animation.gif)
+
+(10)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
 
 
 

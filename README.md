@@ -32,6 +32,20 @@
 
 ![](https://camo.githubusercontent.com/1b016544f28f6abe5775f9b8fdde4ece8c874263/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f31342f3039313630366570766f63636e6e38376f67387a38742e706e67)
 
+（3）那时候看了知乎的客户端，下拉刷新很炫，查了下是用什么实现的，最终知道是用[chrisbanes/ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)的库可以实现那种效果，又去学了，啊哈哈，然而过些日子也没见人用了，啊哈哈哈
+
+![](https://github.com/chrisbanes/ActionBar-PullToRefresh/raw/master/header.png)
+
+(4)这时候google也有自己的下拉控件了，刚出来的效果，一条加载直线，个人觉得，一般到要死。
+
+![](https://camo.githubusercontent.com/9c0181efd67b9b7f080a1526311eba64485539c2/687474703a2f2f73746f726d7a68616e672e6769746875622e696f2f696d6167652f5377697065526566726573684c61796f75742e676966)
+
+android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应用都用这个
+
+![](https://camo.githubusercontent.com/cfdc4a235ea790c206e802949cea6be0ed2b1546/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530342f32322f31323031303576357a6a6930307278726377727a7a782e706e67)
+
+
+
 
 
 

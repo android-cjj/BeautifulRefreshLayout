@@ -38,7 +38,7 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:layout_scrollFlags="scroll|enterAlways" >
             <ImageView
-                android:src="@drawable/nom"
+                android:src="@drawable/naturo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -63,6 +63,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_done" />
+        android:src="@drawable/xlyy" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -20,6 +20,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -50,7 +51,7 @@ public class SampleListFragment extends Fragment {
                     public void run() {
                         refreshLayout.finishRefreshing();
                     }
-                }, 5000);
+                }, 3000);
             }
         });
 
@@ -63,6 +64,7 @@ public class SampleListFragment extends Fragment {
     private void setupRecyclerView(RecyclerView recyclerView) {
         recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
         recyclerView.setAdapter(new SimpleStringRecyclerViewAdapter(getActivity()));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
 
     private List<String> getRandomSublist(String[] array, int amount) {
@@ -103,7 +105,8 @@ public class SampleListFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
-
+            if(position==0)
+            holder.mImageView.setImageResource(R.drawable.g3);
         }
 
         @Override

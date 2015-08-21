@@ -93,9 +93,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
-        adapter.addFragment(new SampleListFragment(), "Browse");
-        adapter.addFragment(new SampleListFragment(), "Featured");
-        adapter.addFragment(new SampleListFragment(), "My Orders");
+        adapter.addFragment(new SampleListFragment(), "鸣人");
+        adapter.addFragment(new SampleListFragment(), "佐助");
+        adapter.addFragment(new SampleListFragment(), "小樱");
         viewPager.setAdapter(adapter);
     }
 

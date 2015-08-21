@@ -19,20 +19,34 @@
         <!--android:gravity="center"-->
         <!--/>-->
 
+
+
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/text_loading"
         android:layout_gravity="center"
-        android:layout_width="56dp"
+        android:layout_width="45dp"
         android:gravity="center"
-        android:layout_height="56dp"
+        android:layout_height="45dp"
         />
+
 
     <ImageView
         android:id="@+id/meishi"
-        android:src="@drawable/meishi"
+        android:src="@drawable/xlyimg"
         android:layout_gravity="bottom|center"
-        android:layout_width="60dp"
+        android:layout_width="45dp"
         android:gravity="center"
-        android:layout_height="60dp" />
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp" />
+    <TextView
+        android:text="松开刷新"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:id="@+id/tv_tip"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>

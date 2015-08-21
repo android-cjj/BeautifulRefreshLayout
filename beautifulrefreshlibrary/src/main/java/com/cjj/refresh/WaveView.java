@@ -2,6 +2,7 @@ package com.cjj.refresh;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.util.AttributeSet;
@@ -33,7 +34,7 @@ public class WaveView extends View {
     private void init() {
         path = new Path();
         paint = new Paint();
-        paint.setColor(getContext().getResources().getColor(R.color.wave_color));
+        paint.setColor(Color.WHITE);
         paint.setAntiAlias(true);
     }
 

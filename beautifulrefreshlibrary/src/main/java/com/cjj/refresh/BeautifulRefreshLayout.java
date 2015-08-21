@@ -52,8 +52,9 @@ public class BeautifulRefreshLayout extends RefreshLayout {
         final View headView = LayoutInflater.from(getContext()).inflate(R.layout.view_head, null);
         final WaveView waveView = (WaveView) headView.findViewById(R.id.draweeView);
         final ImageView meishi = (ImageView) headView.findViewById(R.id.meishi);
+        final TextView tv_tip = (TextView) headView.findViewById(R.id.tv_tip);
         final SimpleDraweeView draweeView = (SimpleDraweeView) headView.findViewById(R.id.text_loading);
-        Uri uri = Uri.parse("res://cjj/" + R.drawable.src_anim);
+        Uri uri = Uri.parse("res://cjj/" + R.drawable.xly);
         ImageRequest request = ImageRequestBuilder.newBuilderWithSource(uri)
         .build();
 
@@ -89,9 +90,11 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                 if(headW==headW * Math.max(0, fraction - 1))
                 {
                     meishi.setVisibility(View.VISIBLE);
+                    tv_tip.setVisibility(View.VISIBLE);
                 }else
                 {
                     meishi.setVisibility(View.GONE);
+                    tv_tip.setVisibility(View.GONE);
                 }
             }
 
@@ -127,6 +130,7 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                             @Override
                             public void run() {
                                 meishi.setVisibility(View.GONE);
+                                tv_tip.setVisibility(View.GONE);
                                 draweeView.setVisibility(View.VISIBLE);
                             }
                         }, 300

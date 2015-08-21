@@ -4,12 +4,10 @@
 说明
 -----------------------------------------------------------------------------------------------------------------------------
 闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。
+
 截图
-![](http://www.apkbus.com/data/attachment/forum/201508/21/155902r4svmm9vzrgnggsr.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/21/155908ys52m1zjn4h4e55m.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/21/155915rcvltvsjh1vglmmm.png)
+----------------------------------------------------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201508/21/155902r4svmm9vzrgnggsr.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155908ys52m1zjn4h4e55m.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155915rcvltvsjh1vglmmm.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 

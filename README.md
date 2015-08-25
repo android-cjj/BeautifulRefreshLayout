@@ -74,7 +74,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](https://github.com/recruit-lifestyle/BeerSwipeRefresh/blob/master/sc/animation_beer.gif)
 ![](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout/blob/master/sc/animation.gif)
 
-(10)这个是网友推荐的[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout),顾名思义，是扩展子swipeRefreshLayout。
+(10)这个是网友推荐的[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout),顾名思义，是扩展自SwipeRefreshLayout。
 ![](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout/raw/master/demo.gif)
 
 

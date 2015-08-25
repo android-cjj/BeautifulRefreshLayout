@@ -4,7 +4,6 @@
 说明
 -----------------------------------------------------------------------------------------------------------------------------
 闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。
-
 截图
 ----------------------------------------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155902r4svmm9vzrgnggsr.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155908ys52m1zjn4h4e55m.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155915rcvltvsjh1vglmmm.png)
@@ -75,7 +74,11 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](https://github.com/recruit-lifestyle/BeerSwipeRefresh/blob/master/sc/animation_beer.gif)
 ![](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout/blob/master/sc/animation.gif)
 
-(10)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
+(10)这个是网友推荐的[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout),顾名思义，是扩展子swipeRefreshLayout。
+![](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout/raw/master/demo.gif)
+
+
+(11)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
 
 
 

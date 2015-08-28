@@ -100,6 +100,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](https://camo.githubusercontent.com/d406ac5a03a2b1fa5cf41fadc8d2408cb8709bdc/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313635303331372f7265616c6573746174652d70756c6c5f312d322d332e676966)
 
 (12)[tuesda/CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)的下拉刷新，动画做的很不错，设计图来源[https://dribbble.com/shots/1797373-Pull-Down-To-Refresh](https://dribbble.com/shots/1797373-Pull-Down-To-Refresh)
+
 ![](https://github.com/tuesda/CircleRefreshLayout/blob/master/gif/circlerefresh.gif)
 
 (13)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。

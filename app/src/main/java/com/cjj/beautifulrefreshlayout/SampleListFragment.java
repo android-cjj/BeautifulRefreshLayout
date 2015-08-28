@@ -46,12 +46,20 @@ public class SampleListFragment extends Fragment {
         beautifulRefreshLayout.setBuautifulRefreshListener(new BeautifulRefreshLayout.BuautifulRefreshListener() {
             @Override
             public void onRefresh(final BeautifulRefreshLayout refreshLayout) {
-                refreshLayout.postDelayed(new Runnable() {
+//                refreshLayout.postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        refreshLayout.finishRefreshing();
+//                    }
+//                }, 2500);
+//
+                refreshLayout.post(new Runnable() {
                     @Override
                     public void run() {
                         refreshLayout.finishRefreshing();
                     }
-                }, 3000);
+                });
+
             }
         });
 
@@ -106,7 +114,13 @@ public class SampleListFragment extends Fragment {
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
             if(position==0)
-            holder.mImageView.setImageResource(R.drawable.g3);
+            {
+                holder.mImageView.setImageResource(R.drawable.a1);
+            }else if(position == 1)
+            {
+                holder.mImageView.setImageResource(R.drawable.aa1);
+            }
+
         }
 
         @Override

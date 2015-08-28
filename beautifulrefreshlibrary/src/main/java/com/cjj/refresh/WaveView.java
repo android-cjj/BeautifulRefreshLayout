@@ -34,7 +34,7 @@ public class WaveView extends View {
     private void init() {
         path = new Path();
         paint = new Paint();
-        paint.setColor(Color.WHITE);
+        paint.setColor(Color.rgb(43,43,43));
         paint.setAntiAlias(true);
     }
 

@@ -10,25 +10,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <!--<pl.droidsonroids.gif.GifImageView-->
-        <!--android:id="@+id/text_loading"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:src="@drawable/src_anim"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:gravity="center"-->
-        <!--/>-->
-
-
-
-    <com.facebook.drawee.view.SimpleDraweeView
-        android:id="@+id/text_loading"
-        android:layout_gravity="center"
-        android:layout_width="45dp"
-        android:gravity="center"
-        android:layout_height="45dp"
-        />
-
 
     <ImageView
         android:id="@+id/meishi"
@@ -48,5 +29,27 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+        <com.cjj.refresh.RoundDotView
+
+            android:id="@+id/round1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+
+    <com.cjj.refresh.RoundProgressView
+        android:id="@+id/round2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.cjj.refresh.RippleView
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

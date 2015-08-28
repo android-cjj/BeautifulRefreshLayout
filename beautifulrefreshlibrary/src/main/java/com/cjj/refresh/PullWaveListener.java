@@ -2,7 +2,7 @@ package com.cjj.refresh;
 
 /**
  * Created by cjj on 2015/8/4.
- * 涟漪回调监听
+ * wave回调监听
  */
 public interface PullWaveListener {
     /**

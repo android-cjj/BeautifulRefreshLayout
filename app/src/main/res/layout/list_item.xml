@@ -22,9 +22,9 @@
     android:gravity="center_vertical">
 
     <ImageView
-        android:src="@drawable/g1"
+        android:src="@drawable/a"
         android:id="@+id/avatar"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="300dp"
       />

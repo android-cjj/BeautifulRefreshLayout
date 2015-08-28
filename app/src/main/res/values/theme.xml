@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CJJBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#00BCD4</item>
-        <item name="colorPrimaryDark">#00BCD4</item>
-        <item name="colorAccent">#FF0000</item>
+        <item name="colorPrimary">#29d9c2</item>
+        <item name="colorPrimaryDark">#29d9c2</item>
+        <item name="colorAccent">#4CAF50</item>
         <item name="android:windowBackground">@color/window_background</item>
     </style>
 </resources>

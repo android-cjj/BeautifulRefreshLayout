@@ -7,7 +7,7 @@
 
 设计图来源，当然我实现效果也做了一些修改（事实是：有些细节实现不了，技术有限，呵呵。。。。）
 
-[pull to frrfesh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
+[pull to refresh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
 
 截图
 -------------------------------------------------------------------------------------------------------
@@ -96,8 +96,11 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 (10)这个是网友推荐的[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout),顾名思义，是扩展自SwipeRefreshLayout。
 ![](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout/raw/master/demo.gif)
 
+(11)这个是Yalantis公司开发的下拉刷新，其中它的很多东西动画这块，做的非常漂亮[Yalantis/Phoenix](https://github.com/Yalantis/Phoenix)
+![](https://camo.githubusercontent.com/d406ac5a03a2b1fa5cf41fadc8d2408cb8709bdc/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313635303331372f7265616c6573746174652d70756c6c5f312d322d332e676966)
 
-(11)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
+
+(12)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
 
 
 

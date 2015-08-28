@@ -3,7 +3,24 @@
 
 说明
 -----------------------------------------------------------------------------------------------------------------------------
-闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。
+这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
+设计图来源，当然我实现效果也做了一些修改（事实是：有些细节实现不了，技术有限，呵呵。。。。）:
+[pull to frrfesh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
+
+截图
+-------------------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112332dqhbq7c47h4zbqqz.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112337v45eo7ohppu4pq5y.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112327r7ktpy1571p5cskz.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112321hszksb6m858umm5a.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
+
+
+闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
 截图
 ----------------------------------------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155902r4svmm9vzrgnggsr.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155908ys52m1zjn4h4e55m.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155915rcvltvsjh1vglmmm.png)

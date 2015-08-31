@@ -90,7 +90,7 @@ public class RefreshLayout extends FrameLayout {
 
         mHeadLayout = headViewLayout;
 
-        this.addView(headViewLayout);
+        this.addView(mHeadLayout);
 
 
         //获得子控件

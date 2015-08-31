@@ -54,8 +54,6 @@ public class BeautifulRefreshLayout extends RefreshLayout {
          */
         final View headView = LayoutInflater.from(getContext()).inflate(R.layout.view_head, null);
         final WaveView waveView = (WaveView) headView.findViewById(R.id.draweeView);
-        final ImageView meishi = (ImageView) headView.findViewById(R.id.meishi);
-        final TextView tv_tip = (TextView) headView.findViewById(R.id.tv_tip);
         final RippleView rippleView = (RippleView) headView.findViewById(R.id.ripple);
         final RoundDotView r1 = (RoundDotView) headView.findViewById(R.id.round1);
         final RoundProgressView r2 = (RoundProgressView) headView.findViewById(R.id.round2);
@@ -98,19 +96,7 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                 float headW = DensityUtil.dip2px(getContext(), waveHeight);
                 waveView.setHeadHeight((int) (DensityUtil.dip2px(getContext(), headHeight) * limitValue(1, fraction)));
                 waveView.setWaveHeight((int) (headW * Math.max(0, fraction - 1)));
-
                 waveView.invalidate();
-
-                if(headW==headW * Math.max(0, fraction - 1))
-                {
-                    meishi.setVisibility(View.VISIBLE);
-                    tv_tip.setVisibility(View.VISIBLE);
-                }else
-                {
-                    meishi.setVisibility(View.GONE);
-                    tv_tip.setVisibility(View.GONE);
-                }
-
 
                 /*处理圈圈**/
                 r1.setCir_x((int) (30 * limitValue(1, fraction)));
@@ -180,17 +166,6 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                 valueAnimator.setInterpolator(new AccelerateInterpolator());
                 valueAnimator.setDuration(300);
                 valueAnimator.start();
-
-                refreshLayout.postDelayed(
-                        new Runnable() {
-                            @Override
-                            public void run() {
-                                meishi.setVisibility(View.GONE);
-                                tv_tip.setVisibility(View.GONE);
-                            }
-                        }, 300
-                );
-
 
             }
         });

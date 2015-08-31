@@ -11,28 +11,8 @@
         android:layout_gravity="center" />
 
 
-    <ImageView
-        android:id="@+id/meishi"
-        android:src="@drawable/xlyimg"
-        android:layout_gravity="bottom|center"
-        android:layout_width="45dp"
-        android:gravity="center"
-        android:layout_marginBottom="10dp"
-        android:layout_height="45dp" />
-    <TextView
-        android:text="松开刷新"
-        android:textSize="14sp"
-        android:layout_marginTop="10dp"
-        android:textColor="#ff0000"
-        android:id="@+id/tv_tip"
-        android:visibility="gone"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
 
         <com.cjj.refresh.RoundDotView
-
             android:id="@+id/round1"
             android:gravity="center"
             android:layout_width="match_parent"

@@ -3,7 +3,26 @@
 
 说明
 -----------------------------------------------------------------------------------------------------------------------------
-闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。
+这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
+
+设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。
+
+[pull to refresh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
+
+截图
+-------------------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112332dqhbq7c47h4zbqqz.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112337v45eo7ohppu4pq5y.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112327r7ktpy1571p5cskz.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/112321hszksb6m858umm5a.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
+
+
+闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
 截图
 ----------------------------------------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155902r4svmm9vzrgnggsr.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155908ys52m1zjn4h4e55m.png)![](http://www.apkbus.com/data/attachment/forum/201508/21/155915rcvltvsjh1vglmmm.png)
@@ -77,8 +96,18 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 (10)这个是网友推荐的[SuperSwipeRefreshLayout](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout),顾名思义，是扩展自SwipeRefreshLayout。
 ![](https://github.com/nuptboyzhb/SuperSwipeRefreshLayout/raw/master/demo.gif)
 
+(11)这个是Yalantis公司开发的下拉刷新，其中它的很多东西动画这块，做的非常漂亮[Yalantis/Phoenix](https://github.com/Yalantis/Phoenix)
+![](https://camo.githubusercontent.com/d406ac5a03a2b1fa5cf41fadc8d2408cb8709bdc/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313635303331372f7265616c6573746174652d70756c6c5f312d322d332e676966)
 
-(11)如果你有好的下拉刷新，可以介绍给我的，我可以去学学，啊哈哈。。。。。
+(12)[tuesda/CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)的下拉刷新，动画做的很不错，设计图来源[https://dribbble.com/shots/1797373-Pull-Down-To-Refresh](https://dribbble.com/shots/1797373-Pull-Down-To-Refresh)
+
+![](https://github.com/tuesda/CircleRefreshLayout/blob/master/gif/circlerefresh.gif)
+
+
+
+写在最后
+=================================================================================
+这个仓库我会一直维护，有时间也会写一些比较有意思的下拉刷新，只是技术有限，不要吐槽给建议就好，呵呵。。。同时，也希望你们能介绍一些比较好的下拉刷新的库给我，让更多人知道有这个东西，大家一起交流学习，一起进步。欢迎随时关注，记得star哦，呵呵！
 
 
 

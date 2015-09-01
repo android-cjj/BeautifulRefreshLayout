@@ -22,13 +22,11 @@
 
 截图
 -------------------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112332dqhbq7c47h4zbqqz.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
 
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112337v45eo7ohppu4pq5y.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112327r7ktpy1571p5cskz.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112321hszksb6m858umm5a.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 

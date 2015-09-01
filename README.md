@@ -1,9 +1,9 @@
-# BeautifulRefreshLayout
+ BeautifulRefreshLayout
 =============================================================================================================================
 
-说明
+#说明
 -----------------------------------------------------------------------------------------------------------------------------
-# BeautifulRefreshLayoutForRain
+BeautifulRefreshLayoutForRain
 -------------------------------------------------
 这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
 
@@ -15,7 +15,7 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-# BeautifulRefreshLayoutForGirl
+ BeautifulRefreshLayoutForGirl
 -------------------------------------------------
 这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
@@ -33,7 +33,7 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 
-# BeautifulRefreshLayoutForNaruto
+BeautifulRefreshLayoutForNaruto
 -------------------------------------------------
 闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
 截图
@@ -42,18 +42,16 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 
-# BeautifulRefreshLayoutForFood
+BeautifulRefreshLayoutForFood
 -------------------------------------------------
 看到一个很漂亮的美食下拉刷新[（来源地址）](https://dribbble.com/shots/2096383-Pull-To-Refresh-V2?list=users&offset=1) ，可惜技术水平菜菜的，只能模仿一下下，啊哈哈。。。[源码下载地址](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
 
 效果图
 --------------------------------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102056yctnkn6tcck3cych.png)
-
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102058t7xl9q3dd3bsgoxs.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102100xt44oltpwaju1lj4.png)
-
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102102lcmmsym2kmy4ehss.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/101826dztai4gnnfmgmuql.gif)

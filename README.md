@@ -3,7 +3,9 @@
 
 说明
 -----------------------------------------------------------------------------------------------------------------------------
-这是一个下雨刷新，你没听错，确实刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
+# BeautifulRefreshLayoutForRain
+-------------------------------------------------
+这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
 
 截图
 ----------------------------------------------------------------------------------------------
@@ -13,7 +15,8 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-
+# BeautifulRefreshLayoutForGirl
+-------------------------------------------------
 这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
 设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。
@@ -24,12 +27,14 @@
 -------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
+
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 
-
+# BeautifulRefreshLayoutForNaruto
+-------------------------------------------------
 闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
 截图
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -37,7 +42,8 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 
-
+# BeautifulRefreshLayoutForFood
+-------------------------------------------------
 看到一个很漂亮的美食下拉刷新[（来源地址）](https://dribbble.com/shots/2096383-Pull-To-Refresh-V2?list=users&offset=1) ，可惜技术水平菜菜的，只能模仿一下下，啊哈哈。。。[源码下载地址](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
 
 效果图

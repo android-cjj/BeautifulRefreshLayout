@@ -8,7 +8,9 @@
 截图
 ----------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140013f5euec1127ywtjj1.jpg)
+
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140015hdwf99tpjdsavywj.jpg)
+
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140016g7l9l1m9g8yt87tt.jpg)
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
@@ -24,7 +26,6 @@
 -------------------------------------------------------------------------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
-
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 

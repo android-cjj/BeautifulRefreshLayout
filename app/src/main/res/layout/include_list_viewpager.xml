@@ -29,17 +29,13 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:layout_scrollFlags="scroll|enterAlways" >
-            <ImageView
-                android:src="@drawable/naturo"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+
 
         </android.support.v7.widget.Toolbar>
 

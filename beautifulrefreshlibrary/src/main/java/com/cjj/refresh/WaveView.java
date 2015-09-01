@@ -2,13 +2,19 @@ package com.cjj.refresh;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PixelFormat;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+import android.graphics.Rect;
+import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -20,7 +26,7 @@ public class WaveView extends View {
     private int headHeight;
     Path path;
     Paint paint;
-
+    private Bitmap bitmapDis;// 位图
     public WaveView(Context context) {
         this(context, null, 0);
     }
@@ -37,8 +43,10 @@ public class WaveView extends View {
     private void init() {
         path = new Path();
         paint = new Paint();
-        paint.setColor(Color.rgb( 43, 43, 43));
+        paint.setColor(Color.argb(150, 43, 43, 43));
         paint.setAntiAlias(true);
+        // 获取位图
+        bitmapDis = BitmapFactory.decodeResource(getResources(), R.drawable.gg);
     }
 
     public int getHeadHeight() {
@@ -60,6 +68,14 @@ public class WaveView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+//        canvas.drawBitmap(bitmapDis, 0, 0, paint);
+        RectF rectF = new RectF(0,0,getMeasuredWidth(),400);
+        Rect rectF1= new Rect(0,0,bitmapDis.getWidth(),bitmapDis.getHeight());
+        Log.i("cjj","getMeasuredWidth---->"+getMeasuredWidth());
+        Log.i("cjj","getMeasuredHeight---->"+getMeasuredHeight());
+        Log.i("cjj","bitmapDis.getWidth()---->"+bitmapDis.getWidth());
+        Log.i("cjj","bitmapDis.getHeight()---->"+bitmapDis.getHeight());
+        canvas.drawBitmap(bitmapDis,rectF1,rectF,paint);
         //重置画笔
         path.reset();
         path.lineTo(0, headHeight);

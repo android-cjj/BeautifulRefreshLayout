@@ -51,7 +51,7 @@ public class SampleListFragment extends Fragment {
 //                    public void run() {
 //                        refreshLayout.finishRefreshing();
 //                    }
-//                }, 2500);
+//                }, 3000);
 //
                 refreshLayout.post(new Runnable() {
                     @Override
@@ -115,10 +115,10 @@ public class SampleListFragment extends Fragment {
         public void onBindViewHolder(final ViewHolder holder, int position) {
             if(position==0)
             {
-                holder.mImageView.setImageResource(R.drawable.a1);
+                holder.mImageView.setImageResource(R.drawable.bb);
             }else if(position == 1)
             {
-                holder.mImageView.setImageResource(R.drawable.aa1);
+                holder.mImageView.setImageResource(R.drawable.cc);
             }
 
         }

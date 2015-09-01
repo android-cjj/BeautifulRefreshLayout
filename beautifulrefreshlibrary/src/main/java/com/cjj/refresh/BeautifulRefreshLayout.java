@@ -7,7 +7,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
 import android.view.animation.BounceInterpolator;
+import android.view.animation.OvershootInterpolator;
+import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,6 +21,7 @@ import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
+import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.animation.ValueAnimator;
 
 
@@ -25,8 +29,8 @@ import com.nineoldandroids.animation.ValueAnimator;
  * Created by cjj on 2015/8/4.
  */
 public class BeautifulRefreshLayout extends RefreshLayout {
-    private float waveHeight = 180;
-    private float headHeight = 100;
+    private float waveHeight = 200;
+    private float headHeight = 120;
 
     public BeautifulRefreshLayout(Context context) {
         this(context, null, 0);
@@ -54,18 +58,10 @@ public class BeautifulRefreshLayout extends RefreshLayout {
          */
         final View headView = LayoutInflater.from(getContext()).inflate(R.layout.view_head, null);
         final WaveView waveView = (WaveView) headView.findViewById(R.id.draweeView);
+        final TextView tv_tip = (TextView) headView.findViewById(R.id.tv_tip);
         final RippleView rippleView = (RippleView) headView.findViewById(R.id.ripple);
-        final RoundDotView r1 = (RoundDotView) headView.findViewById(R.id.round1);
-        final RoundProgressView r2 = (RoundProgressView) headView.findViewById(R.id.round2);
-        r2.setVisibility(View.GONE);
-        r2.setProListener(new RoundProgressView.Prolistener() {
-            @Override
-            public void onFinish() {
-                rippleView.startReveal();
-                r2.animate().scaleX((float)0.0);
-                r2.animate().scaleY((float)0.0);
-            }
-        });
+        final RainView rain = (RainView) headView.findViewById(R.id.rain);
+        rain.setVisibility(View.GONE);
         rippleView.setRippleListener(new RippleView.RippleListener() {
             @Override
             public void onRippleFinish() {
@@ -96,22 +92,25 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                 float headW = DensityUtil.dip2px(getContext(), waveHeight);
                 waveView.setHeadHeight((int) (DensityUtil.dip2px(getContext(), headHeight) * limitValue(1, fraction)));
                 waveView.setWaveHeight((int) (headW * Math.max(0, fraction - 1)));
+
                 waveView.invalidate();
 
-                /*处理圈圈**/
-                r1.setCir_x((int) (30 * limitValue(1, fraction)));
-                r1.invalidate();
-                r1.setVisibility(View.VISIBLE);
-                r2.setVisibility(View.GONE);
-                r2.animate().scaleX((float) 0.1);
-                r2.animate().scaleY((float) 0.1);
+                if(DensityUtil.dip2px(getContext(), headHeight)> (int) (DensityUtil.dip2px(getContext(), headHeight) * limitValue(1, fraction)))
+                {
+                    tv_tip.setText("下拉下雨");
+                }else
+                {
+                    tv_tip.setText("松开下雨");
+                }
+
+
+
             }
 
             @Override
             public void onPullReleasing(RefreshLayout refreshLayout, float fraction) {
                 if (!refreshLayout.isRefreshing) {
-                    r1.setCir_x((int)(30 * limitValue(1, fraction)));
-                    r1.invalidate();
+
                 }
             }
         });
@@ -122,6 +121,9 @@ public class BeautifulRefreshLayout extends RefreshLayout {
         setPullToRefreshListener(new PullToRefreshListener() {
             @Override
             public void onRefresh(RefreshLayout refreshLayout) {
+                tv_tip.setText("下雨中...");
+                rain.setVisibility(View.VISIBLE);
+                rain.StartRain();
                 waveView.setHeadHeight((int) (DensityUtil.dip2px(getContext(), headHeight)));
                 ValueAnimator animator = ValueAnimator.ofInt(waveView.getWaveHeight(), 0,-300,0,-100,0);
                 animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
@@ -136,55 +138,28 @@ public class BeautifulRefreshLayout extends RefreshLayout {
                 animator.setInterpolator(new BounceInterpolator());
                 animator.setDuration(1000);
                 animator.start();
-                 /*处理圈圈**/
-                ValueAnimator valueAnimator = ValueAnimator.ofFloat(1, 0);
-                valueAnimator.addListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        super.onAnimationEnd(animation);
-                        r1.setVisibility(GONE);
-                        r2.setVisibility(View.VISIBLE);
-                        r2.animate().scaleX((float) 1.0);
-                        r2.animate().scaleY((float) 1.0);
-                        r2.postDelayed(new Runnable() {
+
+
+                refreshLayout.postDelayed(
+                        new Runnable() {
                             @Override
                             public void run() {
-                                r2.setAnimStart();
+                                rippleView.startReveal();
+                                rain.stopRain();
                             }
-                        },300);
-                    }
-                });
-                valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-                    @Override
-                    public void onAnimationUpdate(ValueAnimator animation) {
-                        float value = (float) animation.getAnimatedValue();
-                        r1.setCir_x((int) (-value * 40));
-                        r1.invalidate();
-                    }
-
-                });
-                valueAnimator.setInterpolator(new AccelerateInterpolator());
-                valueAnimator.setDuration(300);
-                valueAnimator.start();
-
+                        }, 3000
+                );
             }
         });
     }
 
 
-    public void waveAnim(int value1,int value2)
+    public void shakeAnim(View view)
     {
-        ValueAnimator animator = ValueAnimator.ofInt(value1, value2);
-        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-            @Override
-            public void onAnimationUpdate(ValueAnimator animation) {
-                Log.i("anim", "value--->" + (int) animation.getAnimatedValue());
-//                waveView.setWaveHeight((int) animation.getAnimatedValue());
-//                waveView.invalidate();
-            }
-        });
-//                animator.setInterpolator(new BounceInterpolator());
-        animator.setDuration(300);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(view,"rotation",0,2,0,-2,0);
+        animator.setDuration(100);
+        animator.setRepeatCount(-1);
+        animator.setRepeatMode(ValueAnimator.RESTART);
         animator.start();
     }
 

@@ -11,25 +11,27 @@
         android:layout_gravity="center" />
 
 
-
-        <com.cjj.refresh.RoundDotView
-            android:id="@+id/round1"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-
-
-    <com.cjj.refresh.RoundProgressView
-        android:id="@+id/round2"
-        android:gravity="center"
+    <TextView
+        android:id="@+id/tv_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="松开刷新"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        />
+
+
+    <com.cjj.refresh.RainView
+        android:id="@+id/rain"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
 
     <com.cjj.refresh.RippleView
         android:id="@+id/ripple"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
 </FrameLayout>

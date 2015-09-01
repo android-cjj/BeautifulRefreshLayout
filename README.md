@@ -3,6 +3,17 @@
 
 说明
 -----------------------------------------------------------------------------------------------------------------------------
+这是一个下雨刷新，你没听错，确实刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
+
+截图
+----------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140013f5euec1127ywtjj1.jpg)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140015hdwf99tpjdsavywj.jpg)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140016g7l9l1m9g8yt87tt.jpg)
+
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
+
+
 这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
 设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。
@@ -11,13 +22,10 @@
 
 截图
 -------------------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112332dqhbq7c47h4zbqqz.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112337v45eo7ohppu4pq5y.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112327r7ktpy1571p5cskz.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201508/28/112321hszksb6m858umm5a.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 

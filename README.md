@@ -12,7 +12,8 @@
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140013f5euec1127ywtjj1.jpg)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140015hdwf99tpjdsavywj.jpg)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140016g7l9l1m9g8yt87tt.jpg)
-
+GIF图（效果失真，请真机看看）
+------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
  [BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
@@ -30,7 +31,8 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
-
+GIF图（效果失真，请真机看看）
+------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 
 [BeautifulRefreshLayoutForNaruto](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
@@ -41,7 +43,8 @@
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/152949tqf3m47ppff30p40.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/152950shhxxb23zyzyhkh7.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/152951krkz0e7s0h77ssks.png)
-
+GIF图（效果失真，请真机看看）
+------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 
 [BeautifulRefreshLayoutForFood](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
@@ -55,7 +58,8 @@
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102100xt44oltpwaju1lj4.png)
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/102102lcmmsym2kmy4ehss.png)
-
+GIF图（效果失真，请真机看看）
+------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/101826dztai4gnnfmgmuql.gif)
 
 碎碎念

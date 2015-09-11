@@ -61,11 +61,13 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](https://github.com/tuesda/CircleRefreshLayout/blob/master/gif/circlerefresh.gif)
 
 (13)[BeautifulRefreshLayoutForFood](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
+
 看到一个很漂亮的美食下拉刷新[（来源地址）](https://dribbble.com/shots/2096383-Pull-To-Refresh-V2?list=users&offset=1) ，可惜技术水平菜菜的，只能模仿一下下，啊哈哈。。。[源码下载地址download](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/101826dztai4gnnfmgmuql.gif)
 
 (14)[BeautifulRefreshLayoutForNaruto](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
+
 闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址download)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
@@ -85,6 +87,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 
 (16)[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
+
 这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)

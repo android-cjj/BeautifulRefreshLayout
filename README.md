@@ -72,7 +72,11 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 
- (15)[BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
+(15)[bingoogolapple/BGARefreshLayout-Android](https://github.com/bingoogolapple/BGARefreshLayout-Android)多种下拉刷新效果、上拉加载更多、可配置自定义头部广告位...
+![](https://camo.githubusercontent.com/f609f7944250a6607e5fdec8b12b3156df569cd7/687474703a2f2f37786b39646a2e636f6d312e7a302e676c622e636c6f7564646e2e636f6d2f726566726573686c61796f75742f73637265656e73686f74732f726566726573686c61796f7574312e676966)
+
+
+ (16)[BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
 
 这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
@@ -86,13 +90,13 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
 
-(16)[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
+(17)[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
 
 这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-(17)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式，非侵入式，覆盖式，非覆盖式......
+(18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式，非侵入式，覆盖式，非覆盖式......
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
 

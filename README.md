@@ -92,9 +92,10 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-(17)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式      ，非侵入式，覆盖式，非覆盖式......
+(17)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式，非侵入式，覆盖式，非覆盖式......
 
 ![](https://camo.githubusercontent.com/8c35bb95cc3463c831a8b0195cf62b04d80c54b6/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530392f31302f313434373336616838786165616d7a3135357a7135342e676966)
+![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
 
 
 

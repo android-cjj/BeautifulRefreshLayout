@@ -3,53 +3,13 @@
 
 说明
 -----------------------------------------------------------------------------------------------------------------------------
-[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
--------------------------------------------------
-这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
 
-截图
-----------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201509/01/140013f5euec1127ywtjj1.jpg)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/140015hdwf99tpjdsavywj.jpg)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/140016g7l9l1m9g8yt87tt.jpg)
-GIF图（效果失真，请真机看看）
-------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
- [BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
--------------------------------------------------
-这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
-设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。[源码下载地址](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
 
-[pull to refresh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
 
-截图
--------------------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
 
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
-GIF图（效果失真，请真机看看）
-------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
 
-[BeautifulRefreshLayoutForNaruto](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
--------------------------------------------------
-闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
-截图
-----------------------------------------------------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201509/01/152949tqf3m47ppff30p40.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/152950shhxxb23zyzyhkh7.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/152951krkz0e7s0h77ssks.png)
-GIF图（效果失真，请真机看看）
-------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
-
-[BeautifulRefreshLayoutForFood](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
--------------------------------------------------
-看到一个很漂亮的美食下拉刷新[（来源地址）](https://dribbble.com/shots/2096383-Pull-To-Refresh-V2?list=users&offset=1) ，可惜技术水平菜菜的，只能模仿一下下，啊哈哈。。。[源码下载地址](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
 
 效果图
 --------------------------------------------------------------------------------------------------------------------------------
@@ -62,7 +22,7 @@ GIF图（效果失真，请真机看看）
 ------------------------------------
 ![](http://www.apkbus.com/data/attachment/forum/201508/06/101826dztai4gnnfmgmuql.gif)
 
-碎碎念
+众多优秀的下拉刷新（除了我写的之外T_T）
 -----------------------------------------------------------------------------------------------------------------------------
 说起下拉刷新，好像经历一段历史的洗礼。。。
 
@@ -120,6 +80,65 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 (12)[tuesda/CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)的下拉刷新，动画做的很不错，设计图来源[https://dribbble.com/shots/1797373-Pull-Down-To-Refresh](https://dribbble.com/shots/1797373-Pull-Down-To-Refresh)
 
 ![](https://github.com/tuesda/CircleRefreshLayout/blob/master/gif/circlerefresh.gif)
+
+(13)[BeautifulRefreshLayoutForFood](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
+-------------------------------------------------
+看到一个很漂亮的美食下拉刷新[（来源地址）](https://dribbble.com/shots/2096383-Pull-To-Refresh-V2?list=users&offset=1) ，可惜技术水平菜菜的，只能模仿一下下，啊哈哈。。。[源码下载地址download](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForFood)
+
+(15)[BeautifulRefreshLayoutForNaruto](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
+-------------------------------------------------
+闲着蛋疼，写了个血轮眼下拉刷新的，虽然火影漫画完结了，但是动画还在继续，真的是挂漫天飞。。。。[(源码下载地址download)](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForNaruto)
+截图
+----------------------------------------------------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201509/01/152949tqf3m47ppff30p40.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/152950shhxxb23zyzyhkh7.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/152951krkz0e7s0h77ssks.png)
+GIF图（效果失真，请真机看看）
+------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
+
+
+(13)[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
+-------------------------------------------------
+这是一个下雨刷新，你没听错，确实一刷新就下雨，为什么会出现，只是我的好奇心而做的东西，见怪不怪了，呵呵。。。
+
+截图
+----------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140013f5euec1127ywtjj1.jpg)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140015hdwf99tpjdsavywj.jpg)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140016g7l9l1m9g8yt87tt.jpg)
+GIF图（效果失真，请真机看看）
+------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
+
+ (14)[BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
+-------------------------------------------------
+这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
+
+设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。[源码下载地址download](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
+
+[pull to refresh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
+
+
+
+
+
+截图
+-------------------------------------------------------------------------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
+
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
+![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
+GIF图（效果失真，请真机看看）
+------------------------------------
+![](http://www.apkbus.com/data/attachment/forum/201508/28/113552n736aanr97bor3ff.gif)
+
+
+
+(13)[Android-MaterialRefreshLayout]是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式      ，非侵入式，覆盖式，非覆盖式......
+![](https://camo.githubusercontent.com/8c35bb95cc3463c831a8b0195cf62b04d80c54b6/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530392f31302f313434373336616838786165616d7a3135357a7135342e676966)
+
 
 
 

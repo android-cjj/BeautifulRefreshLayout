@@ -73,7 +73,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](http://www.apkbus.com/data/attachment/forum/201508/21/155921wqhrrbufrj6ghhet.gif)
 
  (15)[BeautifulRefreshLayoutForGirl](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)
--------------------------------------------------
+
 这是一个小清新的下拉刷新，纯代码绘制，无需任何图片，Recyclerview中item展示的妹子图来自[http://gank.io/](http://gank.io/)
 
 设计图来源，当然我实现的效果做了一些修改，希望你喜欢，呵呵。。。[源码下载地址download](https://github.com/android-cjj/BeautifulRefreshLayout/tree/BeautifulRefreshForGirl)

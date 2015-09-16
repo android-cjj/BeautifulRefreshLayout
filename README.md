@@ -100,7 +100,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-(18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  拥有侵入式，非侵入式，覆盖式，非覆盖式......
+(18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  下拉刷新拥有侵入式，非侵入式，覆盖式，非覆盖式，上拉加载更多等功能......
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
 

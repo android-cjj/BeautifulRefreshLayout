@@ -1,8 +1,6 @@
  BeautifulRefreshLayout
 =============================================================================================================================
 
-[about me](http://android-cjj.github.io/)
-------------------------------------
 
 众多优秀的下拉刷新（除了我写的之外T_T）
 -----------------------------------------------------------------------------------------------------------------------------
@@ -59,6 +57,9 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 (11)这个是Yalantis公司开发的下拉刷新，其中它的很多东西动画这块，做的非常漂亮[Yalantis/Phoenix](https://github.com/Yalantis/Phoenix)
 ![](https://camo.githubusercontent.com/d406ac5a03a2b1fa5cf41fadc8d2408cb8709bdc/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313635303331372f7265616c6573746174652d70756c6c5f312d322d332e676966)
 
+[Taurus](https://github.com/Yalantis/Taurus)又是飞机飞啊飞...
+![](https://camo.githubusercontent.com/3a24e22eb3f8338573dba0701c089c12f6b70f11/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3132353035362f73637265656e73686f74732f313632333133312f746f7572732d70756c6c2d616972706c616e655f322d322d332e676966)
+
 (12)[tuesda/CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)的下拉刷新，动画做的很不错，设计图来源[https://dribbble.com/shots/1797373-Pull-Down-To-Refresh](https://dribbble.com/shots/1797373-Pull-Down-To-Refresh)
 
 ![](https://github.com/tuesda/CircleRefreshLayout/blob/master/gif/circlerefresh.gif)
@@ -100,7 +101,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/01/140049ia4d2w588wkvnkkl.gif)
 
-(18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  下拉刷新拥有侵入式，非侵入式，覆盖式，非覆盖式，上拉加载更多等功能......
+(18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  下拉刷新拥有侵入式，非侵入式，覆盖式，非覆盖式，自动刷新，上拉加载更多,自动加载等功能......
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
 
@@ -111,6 +112,9 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 这个仓库我会一直维护，有时间也会写一些比较有意思的下拉刷新，只是技术有限，不要吐槽给建议就好，呵呵。。。同时，也希望你们能介绍一些比较好的下拉刷新的库给我，让更多人知道有这个东西，大家一起交流学习，一起进步。欢迎随时关注，记得star哦，呵呵！
 
       ****************************转载请注明出处,不然我咬你哦！************************
+
+[about me](http://android-cjj.github.io/)
+------------------------------------
 
 License
 =======

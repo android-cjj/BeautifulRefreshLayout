@@ -1,5 +1,6 @@
 package com.cjj.refresh;
 
+import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -96,28 +97,50 @@ public class RefreshLayout extends FrameLayout {
         //获得子控件
         mChildView = getChildAt(0);
 
-        if (mChildView == null) {
-            return;
-        }
-        mChildView.animate().setInterpolator(new DecelerateInterpolator());//设置速率为递减
-        mChildView.animate().setUpdateListener(//通过addUpdateListener()方法来添加一个动画的监听器
-                new ValueAnimator.AnimatorUpdateListener() {
-                    @Override
-                    public void onAnimationUpdate(ValueAnimator animation) {
-                        int height = (int) mChildView.getTranslationY();//获得mChildView当前y的位置
-
-                        Log.i("cjj", "mChildView.getTranslationY----------->" + height);
-                        mHeadLayout.getLayoutParams().height = height;
-                        mHeadLayout.requestLayout();//重绘
-
-                        if (pullWaveListener != null) {
-                            pullWaveListener.onPullReleasing(RefreshLayout.this, height / mHeadHeight);
-                        }
-                    }
-                }
-        );
+//        if (mChildView == null) {
+//            return;
+//        }
+//        mChildView.animate().setInterpolator(new DecelerateInterpolator());//设置速率为递减
+//        mChildView.animate().setUpdateListener(//通过addUpdateListener()方法来添加一个动画的监听器
+//                new ValueAnimator.AnimatorUpdateListener() {
+//                    @Override
+//                    public void onAnimationUpdate(ValueAnimator animation) {
+//                        int height = (int) mChildView.getTranslationY();//获得mChildView当前y的位置
+//
+//                        Log.i("cjj", "mChildView.getTranslationY----------->" + height);
+//                        mHeadLayout.getLayoutParams().height = height;
+//                        mHeadLayout.requestLayout();//重绘
+//
+//                        if (pullWaveListener != null) {
+//                            pullWaveListener.onPullReleasing(RefreshLayout.this, height / mHeadHeight);
+//                        }
+//                    }
+//                }
+//        );
 
     }
+
+    //由于animate().setUpdateListener必须在API 19以上才能使用，故使用ObjectAnimator代替
+    private void setChildViewTransLationY(float... values){
+        ObjectAnimator oa = ObjectAnimator.ofFloat(mChildView, View.TRANSLATION_Y, values);
+        oa.setInterpolator(new DecelerateInterpolator());
+        oa.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                int height = (int) mChildView.getTranslationY();//获得mChildView当前y的位置
+
+                Log.i("cjj", "mChildView.getTranslationY----------->" + height);
+                mHeadLayout.getLayoutParams().height = height;
+                mHeadLayout.requestLayout();//重绘
+
+                if (pullWaveListener != null) {
+                    pullWaveListener.onPullReleasing(RefreshLayout.this, height / mHeadHeight);
+                }
+            }
+        });
+        oa.start();
+    }
+
 
     /**
      * 拦截事件
@@ -179,13 +202,15 @@ public class RefreshLayout extends FrameLayout {
             case MotionEvent.ACTION_UP:
                 if (mChildView != null) {
                     if (mChildView.getTranslationY() >= mHeadHeight) {
-                        mChildView.animate().translationY(mHeadHeight).start();
+//                        mChildView.animate().translationY(mHeadHeight).start();
+                        setChildViewTransLationY(mHeadHeight);
                         isRefreshing = true;
                         if (pullToRefreshPullingListener != null) {
                             pullToRefreshPullingListener.onRefresh(RefreshLayout.this);
                         }
                     } else {
-                        mChildView.animate().translationY(0).start();
+//                        mChildView.animate().translationY(0).start();
+                        setChildViewTransLationY(0);
                     }
 
                 }
@@ -239,7 +264,8 @@ public class RefreshLayout extends FrameLayout {
      */
     public void finishRefreshing() {
         if (mChildView != null) {
-            mChildView.animate().translationY(0).start();
+//            mChildView.animate().translationY(0).start();
+            setChildViewTransLationY(0);
         }
         isRefreshing = false;
     }

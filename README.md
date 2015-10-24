@@ -106,6 +106,14 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
 
+（19）[WaveRefreshForAndroid](https://github.com/alienjun/WaveRefreshForAndroid)这个是基于[Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)修改的而成的水波纹下拉刷新...可能作者主攻ios,所以ios的效果看起来好看点[WaveRefresh](https://github.com/alienjun/WaveRefresh)...
+
+![](https://github.com/alienjun/WaveRefreshForAndroid/raw/master/Sceenshots/screenshot2.gif)
+
+(20)[WaterDropListView](https://github.com/THEONE10211024/WaterDropListView)如果你用过ios的qq,那应该很熟悉这种刷新了，效果还是蛮不错的，就是不知道为什么android版本的qq不用，呵呵。。。
+
+![](https://github.com/THEONE10211024/WaterDropListView/blob/master/demo/demo.gif)
+
 
 
 写在最后

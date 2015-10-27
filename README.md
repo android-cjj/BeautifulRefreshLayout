@@ -114,6 +114,14 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](https://github.com/THEONE10211024/WaterDropListView/blob/master/demo/demo.gif)
 
+(21)[SwipeRefreshRecyclerView](https://github.com/liangzhitao/SwipeRefreshRecyclerView)
+一个展示 RecyclerView 下拉刷新和上拉加载更多的 Demo
+完全使用原生控件实现非侵入式的下拉刷新和加载更多。
+同时也是 Ailurus 练习 RxJava 的小例子。
+使用HeaderViewRecyclerAdapter完成了加载更多的进度展示
+
+![](https://github.com/liangzhitao/SwipeRefreshRecyclerView/raw/master/RefreshRecyclerView.gif)
+
 
 
 写在最后

@@ -122,6 +122,11 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](https://github.com/liangzhitao/SwipeRefreshRecyclerView/raw/master/RefreshRecyclerView.gif)
 
+(22)阿拉灯神灯写的两个下拉库[AutoHomeRefreshListView](https://github.com/nugongshou110/AutoHomeRefreshListView)仿汽车之家下拉刷新和[MeiTuanRefreshListView](https://github.com/nugongshou110/MeiTuanRefreshListView)仿美团下拉刷新。。。
+
+![](https://camo.githubusercontent.com/21127410f6f8231ed424ebaf76ea3d20c6a4f7d9/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531313031313435373033323730)
+![](https://camo.githubusercontent.com/568acac94970a1b71140832d377a3dd4912ebf9c/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531303330323234313334353736)
+
 
 
 写在最后

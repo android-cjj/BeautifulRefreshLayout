@@ -6,4 +6,6 @@
         <item name="colorAccent">#9C27B0</item>
         <item name="android:windowBackground">@color/window_background</item>
     </style>
+
+    <style name="BaseTheme" parent="CJJBaseTheme" />
 </resources>

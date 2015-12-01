@@ -127,6 +127,16 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 ![](https://camo.githubusercontent.com/21127410f6f8231ed424ebaf76ea3d20c6a4f7d9/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531313031313435373033323730)
 ![](https://camo.githubusercontent.com/568acac94970a1b71140832d377a3dd4912ebf9c/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531303330323234313334353736)
 
+（23）[XRecyclerView](https://github.com/jianghejie/XRecyclerView)a RecyclerView that implements pullrefresh and loadingmore featrues.you can use it like a standard RecyclerView
+
+![](http://ww1.sinaimg.cn/bmiddle/a19d4f8dgw1eygq566u33g20ak0irhdu.gif)
+
+(24)[ChromeLikeSwipeLayout](https://github.com/ashqal/ChromeLikeSwipeLayout)这个效果蛮赞的，细节做的很好。。。。Pull down, and execute more action!
+
+![](https://raw.githubusercontent.com/ashqal/ChromeLikeSwipeLayout/master/screenshot/screenshot.png)
+![](https://raw.githubusercontent.com/ashqal/ChromeLikeSwipeLayout/master/screenshot/screenshot.png)
+
+
 
 
 写在最后

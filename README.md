@@ -2,6 +2,7 @@
 =========================================
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BeautifulRefreshLayout-brightgreen.svg?style=flat)](http://www.android-arsenal.com/details/1/2488)
+GitHub小伙伴交流群'' 477826523,很难进的哦！
 
 众多优秀的下拉刷新（除了我写的之外T_T）
 -----------------------------------------------------------------------------------------------------------------------------

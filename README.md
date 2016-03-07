@@ -134,7 +134,11 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 (24)[ChromeLikeSwipeLayout](https://github.com/ashqal/ChromeLikeSwipeLayout)这个效果蛮赞的，细节做的很好。。。。Pull down, and execute more action!
 
-![](https://raw.githubusercontent.com/ashqal/ChromeLikeSwipeLayout/master/screenshot/screenshot.png)
+![](https://raw.githubusercontent.com/ashqal/ChromeLikeSwipeLayout/master/screenshot/DemoPreview.gif)
+
+(25)下拉玩消格子游戏[HitBlockRefresh](https://github.com/Hitomis/HitBlockRefresh), 一边下拉刷新，一边打砖块.
+
+![](https://github.com/Hitomis/HitBlockRefresh/raw/master/preview/HitBlockRefresh.gif)
 
 
 

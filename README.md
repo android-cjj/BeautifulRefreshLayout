@@ -105,7 +105,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 (18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  下拉刷新拥有侵入式，非侵入式，覆盖式，非覆盖式，自动刷新，上拉加载更多,自动加载等功能......
 
-![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
+![](https://raw.githubusercontent.com/android-cjj/Android-MaterialRefreshLayout/master/gif/cjj1.gif)
 
 （19）[WaveRefreshForAndroid](https://github.com/alienjun/WaveRefreshForAndroid)这个是基于[Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)修改的而成的水波纹下拉刷新...可能作者主攻ios,所以ios的效果看起来好看点[WaveRefresh](https://github.com/alienjun/WaveRefresh)...
 
@@ -138,7 +138,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 (25)下拉玩消格子游戏[HitBlockRefresh](https://github.com/Hitomis/HitBlockRefresh), 一边下拉刷新，一边打砖块.
 
-![](https://github.com/Hitomis/HitBlockRefresh/raw/master/preview/HitBlockRefresh.gif)
+![](https://raw.githubusercontent.com/Hitomis/HitBlockRefresh/master/preview/HitBlock.gif)
 
 
 

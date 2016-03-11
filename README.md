@@ -2,6 +2,7 @@
 =========================================
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BeautifulRefreshLayout-brightgreen.svg?style=flat)](http://www.android-arsenal.com/details/1/2488)
+GitHub小伙伴交流群'' 477826523,很难进的哦！
 
 众多优秀的下拉刷新（除了我写的之外T_T）
 -----------------------------------------------------------------------------------------------------------------------------
@@ -105,6 +106,41 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 (18)[Android-MaterialRefreshLayout](https://github.com/android-cjj/Android-MaterialRefreshLayout)是我最近写的, it is more beautiful and powerful than SwipeRefreshLayout ,  下拉刷新拥有侵入式，非侵入式，覆盖式，非覆盖式，自动刷新，上拉加载更多,自动加载等功能......
 
 ![](http://www.apkbus.com/data/attachment/forum/201509/11/095859kp297mjmj2php5pm.jpg)
+
+（19）[WaveRefreshForAndroid](https://github.com/alienjun/WaveRefreshForAndroid)这个是基于[Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)修改的而成的水波纹下拉刷新...可能作者主攻ios,所以ios的效果看起来好看点[WaveRefresh](https://github.com/alienjun/WaveRefresh)...
+
+![](https://github.com/alienjun/WaveRefreshForAndroid/raw/master/Sceenshots/screenshot2.gif)
+
+(20)[WaterDropListView](https://github.com/THEONE10211024/WaterDropListView)如果你用过ios的qq,那应该很熟悉这种刷新了，效果还是蛮不错的，就是不知道为什么android版本的qq不用，呵呵。。。
+
+![](https://github.com/THEONE10211024/WaterDropListView/blob/master/demo/demo.gif)
+
+(21)[SwipeRefreshRecyclerView](https://github.com/liangzhitao/SwipeRefreshRecyclerView)
+一个展示 RecyclerView 下拉刷新和上拉加载更多的 Demo
+完全使用原生控件实现非侵入式的下拉刷新和加载更多。
+同时也是 Ailurus 练习 RxJava 的小例子。
+使用HeaderViewRecyclerAdapter完成了加载更多的进度展示
+
+![](https://github.com/liangzhitao/SwipeRefreshRecyclerView/raw/master/RefreshRecyclerView.gif)
+
+(22)阿拉灯神灯写的两个下拉库[AutoHomeRefreshListView](https://github.com/nugongshou110/AutoHomeRefreshListView)仿汽车之家下拉刷新和[MeiTuanRefreshListView](https://github.com/nugongshou110/MeiTuanRefreshListView)仿美团下拉刷新。。。
+
+![](https://camo.githubusercontent.com/21127410f6f8231ed424ebaf76ea3d20c6a4f7d9/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531313031313435373033323730)
+![](https://camo.githubusercontent.com/568acac94970a1b71140832d377a3dd4912ebf9c/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313531303330323234313334353736)
+
+（23）[XRecyclerView](https://github.com/jianghejie/XRecyclerView)a RecyclerView that implements pullrefresh and loadingmore featrues.you can use it like a standard RecyclerView
+
+![](http://ww1.sinaimg.cn/bmiddle/a19d4f8dgw1eygq566u33g20ak0irhdu.gif)
+
+(24)[ChromeLikeSwipeLayout](https://github.com/ashqal/ChromeLikeSwipeLayout)这个效果蛮赞的，细节做的很好。。。。Pull down, and execute more action!
+
+![](https://raw.githubusercontent.com/ashqal/ChromeLikeSwipeLayout/master/screenshot/DemoPreview.gif)
+
+(25)下拉玩消格子游戏[HitBlockRefresh](https://github.com/Hitomis/HitBlockRefresh), 一边下拉刷新，一边打砖块.
+
+![](https://github.com/Hitomis/HitBlockRefresh/raw/master/preview/HitBlockRefresh.gif)
+
+
 
 
 

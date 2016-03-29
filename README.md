@@ -91,11 +91,7 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 [pull to refresh by Michael Lanning](https://dribbble.com/shots/1936194-Pull-To-Refresh)
 截图
 -------------------------------------------------------------------------------------------------------
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142628nzivid67j09kfnj6.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142630dphjpz3m3ruyzrxy.png)
-
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142631fyqq802qmncadxjw.png)
-![](http://www.apkbus.com/data/attachment/forum/201509/01/142632xzg7oz7f2j5j5o88.png)
+![](http://ww3.sinaimg.cn/mw690/7ef01fcagw1f2dmpn54zjg20be0i2u0x.gif)
 
 (17)[BeautifulRefreshLayoutForRain](https://github.com/android-cjj/BeautifulRefreshLayout)
 

@@ -140,6 +140,8 @@ android 5.0之后效果是个加载圆圈,还可以接受了，现在很多应�
 
 ![](https://raw.githubusercontent.com/Hitomis/HitBlockRefresh/master/preview/HitBlock.gif)
 
+* 温馨提示：如需RecyclerView加载更多，请参考：[https://github.com/android-cjj/Android-RecyclerViewWithFooter](https://github.com/android-cjj/Android-RecyclerViewWithFooter)
+
 
 
 
